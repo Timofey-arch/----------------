@@ -1,0 +1,53 @@
+section{
+    border: 1px black solid;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+body{
+    position: relative;
+}
+
+h2{
+    font-family: sans-serif;
+}
+
+#container .item{
+    border: 1px black solid;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+    margin: 5px;
+    padding: 2px;
+    font-family: sans-serif;
+}
+
+.selected{
+    background-color: rgb(0, 205, 0);
+}
+
+.tooltip{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    width: 400px;
+    height: 30px;
+    margin: 5px;
+    padding: 2px;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.tooltip_window{
+    position: absolute;
+    z-index: 3;
+    background-color: aqua;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
