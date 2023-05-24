@@ -19,9 +19,9 @@
     html
     Copy code
     <div id="container">
-    <div class="item">Item 1</div>
-    <div class="item">Item 2</div>
-    <div class="item">Item 3</div>
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
     </div>
 ```
 Напишите функцию, которая при клике на каждый элемент с классом "item" добавляет к нему класс "selected", а при повторном клике удаляет класс "selected". Обработчики событий должны быть добавлены только к элементам с классом "item" с использованием делегирования событий.
